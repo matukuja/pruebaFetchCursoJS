@@ -1,0 +1,5 @@
+[
+    { "nombre": "Julian", "apellido": "Ramirez", "edad": 18, "casado": false },
+    { "nombre": "Micaela", "apellido": "Gimenez", "edad": 28, "casado": true },
+    { "nombre": "Gonzalo", "apellido": "Maroni", "edad": 10, "casado": false }
+]
