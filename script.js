@@ -239,9 +239,9 @@ async function escribirDatosDeServidor() {
     for (let item of respuestaServidor) {
         let itemNuevo = document.createElement("li")
         itemNuevo.innerHTML = `
-            <h2>Nombre: ${respuestaServidor.nombre}</h2>
-            <h4>Apellido: ${respuestaServidor.apellido}</h4>
-            <h6>Edad: ${respuestaServidor.edad}</h4>
+            <h2>Nombre: ${item.nombre}</h2>
+            <h4>Apellido: ${item.apellido}</h4>
+            <h6>Edad: ${item.edad}</h4>
             `
         contenedorResultados.append(itemNuevo)
     }
